@@ -1,60 +1,77 @@
-```javascript
-function sum() { 
-  return a + b; 
-}
+# CodeFixer
+
+CodeFixer is an AI-powered code review and debugging tool that helps developers write cleaner, optimized, and error-free code. It utilizes **Google Gemini API** to analyze code, detect issues, suggest improvements, and enhance overall code quality.
+
+## 🚀 Features
+- **AI-Powered Code Review**: Uses **Gemini API** to analyze and review code, providing insightful feedback.
+- **Syntax Highlighting**: Implements **Prism.js** and **highlight.js** for a better code editing experience.
+- **Markdown Support**: Displays AI-generated feedback using **React Markdown**.
+- **Real-time Editing**: Users can modify their code dynamically using **react-simple-code-editor**.
+- **Express Backend**: A Node.js backend that handles AI requests and integrates with **Gemini API**.
+
+---
+
+## 🛠️ Tech Stack
+### **Frontend**
+- React.js
+- Prism.js (Syntax Highlighting)
+- react-simple-code-editor
+- axios (API requests)
+- Markdown (Review Display)
+- highlight.js
+
+### **Backend**
+- Node.js
+- Express.js
+- Google Gemini API (AI-powered code review)
+- CORS
+
+---
+
+## 📦 Installation & Setup
+### **Clone the Repository**
+```bash
+git clone https://github.com/utkarshahu/Code-Fixer.git
+cd Code-Fixer
 ```
 
-**Explanation:**
-
-*   **`function sum() { ... }`**: This line defines a function named `sum`. The parentheses `()` indicate that it's a function, and in this case, it doesn't take any arguments. The curly braces `{}` enclose the function's body, which contains the code to be executed when the function is called.
-*   **`return a + b;`**: This line is the core of the function. It calculates the sum of two variables, `a` and `b`, and then returns the result. The `return` keyword is used to send the calculated value back to the part of the code that called the `sum` function.
-
-**How it works:**
-
-1.  When you call the `sum()` function, the code inside the curly braces `{}` is executed.
-2.  The function attempts to add the values of the variables `a` and `b`.
-3.  The `return` statement sends the result of `a + b` back to the caller.
-
-**Important Note:**
-
-This function will only work correctly if the variables `a` and `b` are defined and have numerical values before the function is called. Otherwise, you might get unexpected results (like `NaN`, which means "Not a Number") or errors.
-```javascript
-function sum() { 
-  return a + b; 
-}
+### **Frontend Setup**
+```bash
+cd frontend
+npm install
+npm start
 ```
 
-**Explanation:**
-
-*   **`function sum() { ... }`**: This line defines a function named `sum`. The parentheses `()` indicate that it's a function, and in this case, it doesn't take any arguments. The curly braces `{}` enclose the function's body, which contains the code to be executed when the function is called.
-*   **`return a + b;`**: This line is the core of the function. It calculates the sum of two variables, `a` and `b`, and then returns the result. The `return` keyword is used to send the calculated value back to the part of the code that called the `sum` function.
-
-**How it works:**
-
-1.  When you call the `sum()` function, the code inside the curly braces `{}` is executed.
-2.  The function attempts to add the values of the variables `a` and `b`.
-3.  The `return` statement sends the result of `a + b` back to the caller.
-
-**Important Note:**
-
-This function will only work correctly if the variables `a` and `b` are defined and have numerical values before the function is called. Otherwise, you might get unexpected results (like `NaN`, which means "Not a Number") or errors.
-```javascript
-function sum() { 
-  return a + b; 
-}
+### **Backend Setup**
+```bash
+cd backend
+npm install
+node index.js
 ```
 
-**Explanation:**
+---
 
-*   **`function sum() { ... }`**: This line defines a function named `sum`. The parentheses `()` indicate that it's a function, and in this case, it doesn't take any arguments. The curly braces `{}` enclose the function's body, which contains the code to be executed when the function is called.
-*   **`return a + b;`**: This line is the core of the function. It calculates the sum of two variables, `a` and `b`, and then returns the result. The `return` keyword is used to send the calculated value back to the part of the code that called the `sum` function.
+## 🌟 Usage
+1. Open the application in your browser.
+2. Write or paste your code in the editor.
+3. Click on the **Review** button to analyze your code.
+4. The AI-generated review will appear on the right panel.
 
-**How it works:**
+---
 
-1.  When you call the `sum()` function, the code inside the curly braces `{}` is executed.
-2.  The function attempts to add the values of the variables `a` and `b`.
-3.  The `return` statement sends the result of `a + b` back to the caller.
+## 🔮 Future Enhancements
+- **Multi-language Support** (Python, Java, C++)
+- **AI-Powered Auto Fixes**
+- **Performance Optimization Suggestions**
+- **Security Vulnerability Detection**
 
-**Important Note:**
+---
 
-This function will only work correctly if the variables `a` and `b` are defined and have numerical values before the function is called. Otherwise, you might get unexpected results (like `NaN`, which means "Not a Number") or errors.
+## 📜 License
+This project is **open-source**. Feel free to contribute!
+
+---
+
+### 👨‍💻 Developed by **Utkarsh Sahu**
+🔗 [GitHub](https://github.com/utkarshahu) | [LinkedIn](www.linkedin.com/in/utkarshahu)
+
